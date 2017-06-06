@@ -27,7 +27,7 @@ else {wp_title('',true);} ?>
 <link rel="icon" href="<?php bloginfo("template_url"); ?>/assets/images/favicon.ico">
 <link rel="apple-touch-icon" href="<?php bloginfo("template_url"); ?>/assets/images/logo.png">
 <link rel="apple-touch-icon-precomposed" href="<?php bloginfo("template_url"); ?>/assets/images/logo.png">
-<link rel="stylesheet" type="text/css" href="<?php bloginfo("template_url"); ?>/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo("template_url"); ?>/style.css?v=1" />
 <link rel="shortcut icon" href="<?php bloginfo("template_url"); ?>/assets/images/favicon.ico" type="image/x-icon" />
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - 所有文章" href="<?php echo get_bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - 所有评论" href="<?php bloginfo('comments_rss2_url'); ?>" />

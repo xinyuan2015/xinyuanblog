@@ -16,7 +16,7 @@
 		</div>
 		<p class="copyright">
 		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1258345280'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1258345280%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-			 Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo" rel="external nofollow">hexo</a> and Theme by <a href="https://github.com/xinyuan2015/xinyuan" target="_blank" title="xinyuan" rel="external nofollow">Xinyuan</a> © 2016 <a href="http://www.lixinyuan123.com" target="_blank" title="新元">新元</a>
+			 Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo" rel="external nofollow">hexo</a> and Theme by <a href="https://github.com/xinyuan2015/xinyuan" target="_blank" title="xinyuan" rel="external nofollow">Xinyuan</a> © 2017 <a href="http://www.lixinyuan123.com" target="_blank" title="新元">新元</a>
 		</p>
 		<p class="copyright" style="font-family:'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Arial, sans-serif;font-size: 13px">
 			<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="external nofollow">京ICP备16010478号-1</a>

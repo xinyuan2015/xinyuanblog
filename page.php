@@ -28,21 +28,6 @@
         				<span></span><?php the_tags("","","");?>
         			</div>
         		</div>
-        		<div class="ds-share" data-thread-key="<?php the_ID();?>" data-title="<?php the_title();?>" data-images="此处请替换为分享时显示的图片的链接地址" data-content="<?php echo mb_strimwidth(strip_tags(apply_filters('the_content', $post->post_content)), 0, 150,"..."); ?>" data-url="<?php the_permalink();?>">
-                    <div class="ds-share-inline">
-                      <ul  class="ds-share-icons-16">
-                      	
-                      	<li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
-                        <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
-                        <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
-                        <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
-                        <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-                      	
-                      </ul>
-                      <div class="ds-share-icons-more">
-                      </div>
-                    </div>
-                 </div>
     		</footer>
 		</article>
     	<?php endwhile; ?>
@@ -55,22 +40,15 @@
 			</div>
 		</nav>
         <section id="comments" class="comment">
-            <!-- 多说评论框 start -->
-            	<div class="ds-thread" data-thread-key="<?php the_ID();?>" data-title="<?php the_title();?>" data-url="<?php the_permalink();?>"></div>
-            <!-- 多说评论框 end -->
-            <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-            <script type="text/javascript">
-            var duoshuoQuery = {short_name:"xinyuan20170215"};
-            	(function() {
-            		var ds = document.createElement('script');
-            		ds.type = 'text/javascript';ds.async = true;
-            		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            		ds.charset = 'UTF-8';
-            		(document.getElementsByTagName('head')[0] 
-            		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-            	})();
-            </script>
-            <!-- 多说公共JS代码 end --> 
+			<!--PC和WAP自适应版-->
+			<div id="SOHUCS" sid="<?php the_ID();?>" ></div> 
+			<script type="text/javascript"> 
+			(function(){ 
+			var appid = 'cyt36R9yu'; 
+			var conf = 'prod_c404bbbb0b7be3f7b03f2f736121b6e9'; 
+			var width = window.innerWidth || document.documentElement.clientWidth; 
+			if (width < 960) { 
+			window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
         </section>
         <?php else: ?>
         <div class="post">
